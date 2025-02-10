@@ -42,6 +42,6 @@ st.markdown(
 )
 
 st.markdown(
-    "📜 This project is open-source under the [MIT License](https://opensource.org/licenses/MIT). "
-    "Feel free to use and modify, but **give credit to Sanka Vamsi Akshay**. 😊"
+    "📜 This project is open-source under the [MIT License](https://opensource.org/licenses/MIT). You are welcome to use and modify it! "
+    "If you find it helpful, please give credit to **Sanka Vamsi Akshay**. 😊"
 )
