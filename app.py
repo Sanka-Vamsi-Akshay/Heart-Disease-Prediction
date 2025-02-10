@@ -14,11 +14,11 @@ st.markdown("#### Lifestyle Factors")
 cpd=st.number_input('The number of cigarettes smoked per day',min_value=0, max_value=100, step=1)
 
 st.markdown("#### Medical History & Vital Signs")
-tcl=st.number_input('Total cholesterol level ',min_value=100.00, max_value=500.00, value=200.00, step=0.1)
-sbp=st.number_input('Systolic blood pressure',min_value=70, max_value=300, value=120, step=1)
-dbp=st.number_input('Diastolic blood pressure',min_value=40, max_value=180, value=80, step=1)
-hr=st.number_input('Heart rate',min_value=30, max_value=220, value=72, step=1)
-gl=st.number_input('Glucose level',min_value=50.00, max_value=600.00, value=90.00, step=0.1)
+tcl=st.number_input('Total cholesterol level (mg/dL)',min_value=100.00, max_value=500.00, value=200.00, step=0.1)
+sbp=st.number_input('Systolic blood pressure (mmHg)',min_value=70, max_value=300, value=120, step=1)
+dbp=st.number_input('Diastolic blood pressure (mmHg)',min_value=40, max_value=180, value=80, step=1)
+hr=st.number_input('Heart rate (bpm)',min_value=30, max_value=220, value=72, step=1)
+gl=st.number_input('Glucose level (mg/dL)',min_value=50.00, max_value=600.00, value=90.00, step=0.1)
 
 if st.button('TenYearCHD'):
     f=chitti.predict([[age,cpd,tcl,sbp,dbp,bmi,hr,gl]])
