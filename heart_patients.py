@@ -41,4 +41,7 @@ st.markdown(
     """
 )
 
-st.markdown("© 2025 Sanka Vamsi Akshay. **All rights reserved.**")
+st.markdown(
+    "📜 This project is open-source under the [MIT License](https://opensource.org/licenses/MIT). "
+    "Feel free to use and modify, but **give credit to Sanka Vamsi Akshay**. 😊"
+)
