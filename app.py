@@ -31,7 +31,7 @@ if st.button('TenYearCHD'):
 
 st.write("---")
 
-st.markdown("### Developed by **Sanka Vamsi Akshay**")
+st.markdown("###### Initial concept by ***Kiran Kalla***, refined and developed further by ***Vamsi Akshay Sanka***.")
 
 st.markdown(
     """
